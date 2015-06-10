@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sorteio | Eu, Programador.</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- JS -->
+	<script src="js/jquery.js"></script>
+	<script src="js/valida.js"></script>
+
+</head>
+<body class="col-md-12">
+	<nav class="row">
+		<div class="col-md-12 nav">
+			<a class="pull-left" href=""><img width="40px" src="img/ico.png" alt="EP"></a>
+			<a class="btn btn-primary pull-right" href="">Login</a>
+		</div>
+	</nav>
+
+	<section>
+
+		<div class="container">
+			<div class="alert alert-danger" role="alert"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 content">
+				<h2>Cadastre-se</h2>
+			</div>
+		</div>
+
+		<div class="container">
+				<form action="register.php" method="POST">
+					<div class="row">
+						<div class="col-md-12">
+							<legend>Preencha o formulário para participar.</legend>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-1">
+							<label for="nome"><span class="glyphicon glyphicon-asterisk"></span>Nome:</label>
+						</div>
+						<div class="col-md-11">
+							<input class="form-control" name="nome" id="nome" type="text">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-1">
+							<label for="email"><span class="glyphicon glyphicon-asterisk"></span>Email:</label>
+						</div>
+						<div class="col-md-11">
+							<input class="form-control" name="email" id="email" type="email">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-1">
+							<label for="pass"><span class="glyphicon glyphicon-asterisk"></span>Senha:</label>
+						</div>
+						<div class="col-md-5">
+							<input class="form-control" name="pass" id="pass" type="password">
+						</div>
+
+						<div class="col-md-2">
+							<label for="passconf"><span class="glyphicon glyphicon-asterisk"></span>Confirme sua senha:</label>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control" name="passconf" id="passconf" type="password">
+						</div>
+					</div>
+
+					<div class="row send">
+						<div class="col-md-4 col-md-offset-4">
+							<button class="btn btn-primary" id="send" type="button">Enviar</button>
+						</div>
+					</div>
+				</form>
+		</div>
+	</section>
+</body>
+</html>
