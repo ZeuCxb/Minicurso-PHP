@@ -11,7 +11,7 @@
 
 	<!-- JS -->
 	<script src="js/jquery.js"></script>
-	<script src="js/valida.js"></script>
+	<script src="js/validaLogin.js"></script>
 
 </head>
 <body class="col-md-12">
@@ -31,24 +31,15 @@
 
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4 content">
-				<h2>Cadastre-se</h2>
+				<h2>Entrar</h2>
 			</div>
 		</div>
 
 		<div class="container">
-				<form action="register.php" method="POST">
+				<form action="login.php" method="POST">
 					<div class="row">
 						<div class="col-md-12">
 							<legend>Preencha o formulário para participar.</legend>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-1">
-							<label for="nome"><span class="glyphicon glyphicon-asterisk"></span>Nome:</label>
-						</div>
-						<div class="col-md-11">
-							<input class="form-control" name="nome" id="nome" type="text">
 						</div>
 					</div>
 
@@ -65,21 +56,14 @@
 						<div class="col-md-1">
 							<label for="pass"><span class="glyphicon glyphicon-asterisk"></span>Senha:</label>
 						</div>
-						<div class="col-md-5">
+						<div class="col-md-11">
 							<input class="form-control" name="pass" id="pass" type="password">
-						</div>
-
-						<div class="col-md-2">
-							<label for="passconf"><span class="glyphicon glyphicon-asterisk"></span>Confirme sua senha:</label>
-						</div>
-						<div class="col-md-4">
-							<input class="form-control" name="passconf" id="passconf" type="password">
 						</div>
 					</div>
 
 					<div class="row send">
 						<div class="col-md-4 col-md-offset-4">
-							<button class="btn btn-primary" id="send" type="button">Cadastrar</button>
+							<button class="btn btn-primary" id="send" type="button">Entrar</button>
 						</div>
 					</div>
 				</form>
