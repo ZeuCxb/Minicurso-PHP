@@ -61,3 +61,15 @@ form label span
 {
 	border-color: #3A3;
 }
+
+.warn
+{
+	color: #A03328;
+	float: left;
+	margin-right: 10px;
+}
+
+p
+{
+	color: #A03328;
+}
